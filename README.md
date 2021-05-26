@@ -1,5 +1,5 @@
 # home_automation
-#### Here's a simple reference guide for 'Wireless Home Automation using Android'.
+#### Here's a simple Template/Reference guide for 'Wireless Home Automation using Android'.
 #### A small *'cheap but proffessional project'* we did in college which doesn't require any coding knowledge whatsoever.
 ###### **Honourable mentions to the team- Me(Shubham Pardhi)/Satyam Shukla/Sunny Raj/Vivek Panse/Yuvraj Mishra**
 >Here we will be using **'Arduino'** and building a **'Simple App'** (*Don't panic if you are new or don't know coding as this requires minimal to no experience in it*)
