@@ -12,10 +12,14 @@ Presented here is a home automation project using a simple Android app, which yo
 ## Prerequisites/Things you will need- (all are easily available in local outlets or online shopping platforms)
 >1. **An Arduino UNO Board**
 > - [Arduino Board with PIN Layout](https://github.com/thousandecibles/home_automation/blob/main/arduino-uno-board.jpg).
-> - ![Test Image 4](https://github.com/thousandecibles/home_automation/blob/main/arduino-uno-board.jpg)
+
+>
 
 
 > `Arduino is an open source electronics prototyping platform based on flexible, easy-to-use hardware and software. It is intended for artists, designers, hobbyists and anyone interested in creating interactive objects or environments.Arduino Uno is based on ATmega328 microcontroller (MCU). It consists of 14 digital input/output pins, six analogue inputs, a USB connection for programming the onboard MCU, a power jack, an ICSP header and a reset button. It is operated with a 16MHz crystal oscillator and contains everything needed to support the MCU. It is very easy to use as you simply need to connect it to a computer using a USB cable, or power it with an AC-to-DC adapter or battery to get started. The MCU onboard is programmed in Arduino programming language using Arduino IDE`
+>       
+
+> - ![Test Image 4](https://github.com/thousandecibles/home_automation/blob/main/arduino-uno-board.jpg)
 
 >2. **A Bluetooth or WI-Fi Module** (here we'll use an **HC-05 Bluetooth** Module)
 >- ![btard](https://github.com/thousandecibles/home_automation/blob/main/HC-05%20Bluetooth%20Module.jpg)
@@ -46,7 +50,12 @@ Presented here is a home automation project using a simple Android app, which yo
 ## Software
 >The software program for the home automation project `bt_arduino.ino` is written in Arduino programming language called *Processing*. Arduino Uno is programmed using Arduino IDE software that you can download from arduino.cc. I've provided the `.ino` file in the Assets folder of this repository ![here](https://github.com/thousandecibles/home_automation/blob/main/bt_arduino.ino)
 >
-> MIT App Inventor software was used to create the Android app (.apk) for this project. Refer to this video for more clarity ![here](https://www.youtube.com/watch?v=aQcJ4uHdQEA)
+> MIT App Inventor software was used to create the Android app (.apk) for this project. Refer to this video for more clarity.
+>    
+
+
+
+>            ![here](https://www.youtube.com/watch?v=aQcJ4uHdQEA)
 
 >The app on your smartphone sends data when you click on buttons or feed voice commands via Bluetooth in the mobile to Bluetooth module HC-05 connected with Arduino board. Received data pin TXD of the HC-05 is connected to Arduino. Arduino Uno processes the received data and controls the relay board accordingly.
 
@@ -59,5 +68,5 @@ Procedure for installing the Android app (.apk) is as follows:
 
 Click Bluetooth Image on the app to connect it with the Bluetooth module. It automatically connects and displays as Connected in the app.
 
-You are now ready to control the appliances using the app. You can either use on/off buttons or voice commands to control the appliances. You can control more electrical appliances by increasing the number of channels in the relay. For instance, using an 8-channel relay, you can control up to eight devices. For this, you need to alter the source code by adding input commands and voice commands to control the devices.
+You are now ready to control the appliances using the app. You can either use on/off buttons or voice commands to control the appliances. You can control more electrical appliances by increasing the number of channels in the relay. For instance, using an 8-channel relay, you can control up to eight devices. For this, you need to alter the source code by adding input commands and voice commands to control the devices, as per the instructions.
 ![Watch finished Project Video](https://github.com/thousandecibles/home_automation/blob/main/Project%20Video.gif)
