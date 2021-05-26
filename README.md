@@ -69,4 +69,4 @@ Procedure for installing the Android app (.apk) is as follows:
 Click Bluetooth Image on the app to connect it with the Bluetooth module. It automatically connects and displays as Connected in the app.
 
 You are now ready to control the appliances using the app. You can either use on/off buttons or voice commands to control the appliances. You can control more electrical appliances by increasing the number of channels in the relay. For instance, using an 8-channel relay, you can control up to eight devices. For this, you need to alter the source code by adding input commands and voice commands to control the devices, as per the instructions.
-![Watch finished Project Video](https://github.com/thousandecibles/home_automation/blob/main/Project%20Video.gif)
+![Watch finished Project Video](https://github.com/thousandecibles/home_automation/blob/main/Project%20Video.gif) 
