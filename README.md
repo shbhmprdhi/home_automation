@@ -12,7 +12,7 @@ Presented here is a home automation project using a simple Android app, which yo
 
 ## Prerequisites/Things you will need- (all are easily available in local outlets or online shopping platforms)
 >1. **An Arduino UNO Board**
-> - [Arduino Board with PIN Layout](https://github.com/thousandecibles/home_automation/blob/Assets/arduino-uno-board.jpg).
+> - [Click here to see Arduino Board with PIN Layout](https://github.com/thousandecibles/home_automation/blob/Assets/arduino-uno-board.jpg).
 
 >
 
